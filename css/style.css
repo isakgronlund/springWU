@@ -1,0 +1,40 @@
+
+header {
+    grid-area: hr;
+    padding: 1px;
+    background-color: aqua;
+}
+nav {
+    grid-area: nv;
+    padding: 1px;
+    background-color: red;
+    text-align: center;
+}
+section1{
+    grid-area: s1;
+    padding: 1px;
+    background-color: blueviolet;
+}
+aside{
+    grid-area: as;
+    padding: 1px;
+    background-color: green;
+}
+footer{
+    grid-area: fr;
+    padding: 1px;
+    background-color: orange;
+}
+
+
+#wrapper1 {
+    width: 40%;
+    display: grid;
+    grid-template: 
+    "hr hr hr" 1fr
+    "nv nv nv" 2fr
+    "s1 s1 as" 5fr
+    "fr fr fr" 3fr;
+    border: 1px solid black;
+    margin: auto;
+}
