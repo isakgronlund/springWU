@@ -2,23 +2,26 @@
 header {
     grid-area: hr;
     padding: 1px;
-    background-color: aqua;
+    background-color: rgb(38, 137, 5);
 }
 nav {
     grid-area: nv;
     padding: 1px;
-    background-color: red;
+    background-color: rgb(138, 0, 0);
     text-align: center;
 }
 section1{
     grid-area: s1;
     padding: 1px;
     background-color: blueviolet;
+    border-radius: 15px;
 }
 aside{
     grid-area: as;
     padding: 1px;
     background-color: green;
+    border-radius: 15px;
+    text-align: center;
 }
 footer{
     grid-area: fr;
@@ -37,4 +40,6 @@ footer{
     "fr fr fr" 3fr;
     border: 1px solid black;
     margin: auto;
+    
 }
+
