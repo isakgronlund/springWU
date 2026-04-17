@@ -43,3 +43,26 @@ footer{
     
 }
 
+img {
+    width: auto;
+    height: auto;
+}
+
+section{
+    grid-area: sc;
+
+}
+aside2{
+    grid-area: a2;
+
+}
+
+
+#wrapper2 {
+width: 40%;
+   display: grid;
+   grid-template: 
+   "hr hr hr"
+   "nv nv nv"
+   ""
+}
