@@ -15,8 +15,8 @@ main{
     grid-area: mn;
     padding: 1px;
     border-radius: 15px;
-    color: rgb(206, 124, 0);
-}
+    color: rgb(255, 0, 0);
+}   
 aside{
     grid-area: as;
     padding: 1px;
@@ -51,7 +51,10 @@ img {
 
 main1{
     grid-area: m1;
-
+    text-align: center;
+    background-image: url("https://t4.ftcdn.net/jpg/01/00/52/93/360_F_100529338_asP1lEhJDngJyTJDUO6Yn7HQRpCFksuA.jpg");
+    width: 200px;
+    color: rgb(4, 77, 2);
 }
 aside2{
     grid-area: a2;
@@ -63,7 +66,7 @@ footer1{
 
 
 #wrapper2 {
-width: 40%;
+width: 100%;
    display: grid;
    grid-template: 
    "hr hr hr"
