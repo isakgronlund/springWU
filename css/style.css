@@ -146,3 +146,46 @@ footer3{
     "f3 f3 f3";
 
 }
+
+#wrapper4{
+    display: grid;
+grid-template: 
+"hr hr hr"
+"nv nv nv"
+"m4 a4 s5"
+"f4 f4 f4";
+    background-image: url("https://static.vecteezy.com/ti/gratis-vektor/p1/16122863-poker-och-kasino-spelar-kort-bakgrund-med-kunglig-spola-pa-svart-vector.jpg");
+}
+main4{
+    grid-area: m4;
+    margin-left: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 270px;
+    height: 350px;
+}
+main4 h3, main4 p{
+    margin-left: 30px;
+    color: white;
+}
+aside4{
+    grid-area: a4;
+}
+aside4 img{
+    width: 100px;
+    height: auto;
+    margin-left: -20px;
+    border-radius: 50px;
+}
+section5{
+    grid-area: s5;
+    margin-left:100px; 
+}
+section5 img{
+    height: auto;
+    width: 600px;
+}
+footer4{
+    grid-area: f4;
+    margin-left: 250px;
+    color: white;
+}
