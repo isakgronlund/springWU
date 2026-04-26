@@ -195,8 +195,127 @@ footer4{
     color: white;
 }
 
-@media screen and (max width) {
-    
-} {
-    
+@media screen and (max-width: 1000px) {
+    #wrapper1{
+        display: grid;
+     grid-template: 
+    "hr hr hr" 0.1fr
+    "nv nv nv" 0.3fr
+    "mn mn mn" 1fr
+    "as as as" 1fr
+    "fr fr fr" 0.5fr;
+    height: 1200px;
+
+    }
+    aside{
+        grid-area: as;
+        width: auto;
+        text-align: center;
+    }
+    aside img{
+        width: 250px;
+        height: auto;
+    }
+    header{
+        grid-area: hr;
+        font-size: small;
+        margin-top: 40px;
+    }
+    main{
+        grid-area: mn;
+        font-size: small;
+        width: 250px;
+    }
+    footer{
+        grid-area: fr;
+        font-size: small;
+        width: 250px;
+    }
+    nav{
+        grid-area: nv;
+        font-size: small;
+    }
+    #wrapper2{
+        width: 250px;
+         display: grid;
+    grid-template: 
+    "hr hr hr" 0.15fr
+    "nv nv nv" 0.3fr
+    "m1 m1 m1" 1fr
+    "s4 s4 s4" 1fr
+    "f1 f1 f1" 0.5fr;;
+    }
+    main1{
+        margin: auto;
+        background-color: black;
+    }
+    section4{
+        margin: auto;
+        width: 250px;
+        background-color: black;       
+    }
+    aside2 img{
+        display: none;
+    }
+    #wrapper3{
+    display: grid;
+    grid-template: 
+    "hr hr hr"
+    "nv nv nv"
+    "a3 a3 a3"
+    "m3 m3 m3"
+    "s3 s3 s3"
+    "f3 f3 f3";
+    background-color: white;
+}
+    aside3 img{
+        width: 270px;
+    }
+    main3{
+    grid-area: m3;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+section3{
+    grid-area: s3;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+aside3{
+    grid-area: a3;
+    text-align: center;
+}
+footer3{
+    grid-area: f3;
+    text-align: center;
+}
+#wrapper4{
+    display: grid;
+grid-template: 
+"hr hr hr"
+"nv nv nv"
+"m4 m4 a4"
+"f4 f4 f4";
+    background-image: url("https://static.vecteezy.com/ti/gratis-vektor/p1/16122863-poker-och-kasino-spelar-kort-bakgrund-med-kunglig-spola-pa-svart-vector.jpg");
+}
+    aside4 img{
+        margin: auto;
+    }
+    main4{
+        margin: auto;
+        width: 160px;
+        height: 300px;
+        font-size: small;
+        
+    }
+    section5 img{
+        display: none;
+    }
+    footer4{
+        margin-top: 40px;
+        font-size: small;
+        width: 250px;
+        margin-left: 0px;
+    }
+
 }
