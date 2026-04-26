@@ -43,7 +43,7 @@ footer{
     background-image: url("https://static.independent.co.uk/2024/11/13/12/how-to-play-poker-copy.jpg");
 }
 
-img {
+.poker hand-rankings {
     
     width: 300px;
     height: auto;
@@ -53,8 +53,8 @@ main1{
     grid-area: m1;
     text-align: center;
     background-image: url("https://t4.ftcdn.net/jpg/01/00/52/93/360_F_100529338_asP1lEhJDngJyTJDUO6Yn7HQRpCFksuA.jpg");
-    width: 200px;
-    color: rgb(4, 77, 2);
+    width: 275px;
+    color: rgb(255, 255, 255);
 }
 aside2{
     grid-area: a2;
@@ -62,6 +62,7 @@ aside2{
 }
 footer1{
     grid-area: f1;
+    text-align: center;
 }
 
 
@@ -71,8 +72,41 @@ width: 100%;
    grid-template: 
    "hr hr hr"
    "nv nv nv"
-   "m1 m1 a2"
+   "m1 a2 a2"
    "f1 f1 f1";
    border: 1px black;
    margin: auto;
+   background-color: rgb(59, 157, 255);
+   height: 600px;
+}
+
+main3{
+    grid-area: m3;
+    text-align: right;
+}
+section3{
+    grid-area: s3;
+    text-align: right;
+}
+aside3{
+    grid-area: a3;
+    text-align: center;
+}
+footer3{
+    grid-area: f3;
+}
+.poker_tournament{
+    width: 400px;
+    height: auto;
+}
+
+#wrapper3{
+    display: grid;
+    grid-template: 
+    "hr hr hr"
+    "nv nv nv"
+    "m3 a3 a3"
+    "s3 a3 a3"
+    "f3 f3 f3";
+
 }
